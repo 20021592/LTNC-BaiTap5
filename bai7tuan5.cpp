@@ -11,8 +11,10 @@ void space(int m, int n)
 
 int main()
 {
-	int a=4,b=1;
-	for(int j=0;j<5;j++)
+	int t;
+	cin >> t;
+	int a=t-1,b=1;
+	for(int j=0;j<t;j++)
 	{
 		space(a,b);
 		cout << "\n";
